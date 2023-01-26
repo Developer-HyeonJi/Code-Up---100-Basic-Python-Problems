@@ -1,3 +1,4 @@
 time = input()
-minute = time[3:5]
+time = time.split(':')
+minute = time[1]
 print(minute)
