@@ -1,11 +1,11 @@
-a=int(input())
-s=0
-c=0
+n = int(input())
+s = 0
+c = 0
 
-while True:
-    s=s+c
-    c=c+1
-    if s>=a:
-        break
-    
+while True :
+  s += c
+  c += 1
+  if s>=n :
+    break
+
 print(s)
